@@ -1,0 +1,45 @@
+﻿生成启动时间为 2018/5/5 21:45:41。
+     1>项目“D:\PeDolls\PeDoll\udis86\udis86.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\udis86.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt libudis86\decode.c libudis86\itab.c "libudis86\syn-att.c" "libudis86\syn-intel.c" libudis86\syn.c libudis86\udis86.c udcli\udcli.c
+         decode.c
+         itab.c
+         syn-att.c
+         syn-intel.c
+         syn.c
+     1>libudis86\syn.c(115): warning C4996: 'vsnprintf': This function or variable may be unsafe. Consider using vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(354) : 参见“vsnprintf”的声明
+         udis86.c
+     1>libudis86\udis86.c(173): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+         udcli.c
+     1>udcli\udcli.c(141): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : 参见“sscanf”的声明
+     1>udcli\udcli.c(152): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : 参见“sscanf”的声明
+     1>udcli\udcli.c(173): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : 参见“sscanf”的声明
+     1>udcli\udcli.c(195): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>udcli\udcli.c(209): warning C4244: “函数”: 从“uint64_t”转换到“size_t”，可能丢失数据
+     1>udcli\udcli.c(247): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : 参见“fscanf”的声明
+       Lib:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"D:\PeDolls\PeDoll\Release\udis86.lib" /NOLOGO /LTCG Release\decode.obj
+         Release\itab.obj
+         "Release\syn-att.obj"
+         "Release\syn-intel.obj"
+         Release\syn.obj
+         Release\udis86.obj
+         Release\udcli.obj
+         udis86.vcxproj -> D:\PeDolls\PeDoll\Release\udis86.lib
+       FinalizeBuildStatus:
+         正在删除文件“Release\udis86.unsuccessfulbuild”。
+         正在对“Release\udis86.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\PeDolls\PeDoll\udis86\udis86.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.94
