@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{4ebe002d-c0ba-42c7-bce2-fecfa7797f1d}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{d05814de-daed-4f78-986a-ba5abb377642}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Source Files\CubeLibrary">
+      <UniqueIdentifier>{9dba7fe7-eeee-4a9e-86eb-cf2d67e73678}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CubeLibrary">
+      <UniqueIdentifier>{15b3a84e-cc7d-4114-9ef5-e8a9ee2331a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pedollc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_pedollc.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_pedollc.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_pedollc.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PeDollcCore.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PeDollcCore.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PeDollcCore.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PainterEngineSubPacket\network\src\Cube_Thread.cpp">
+      <Filter>Source Files\CubeLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Lexer\Cube_Lexer.cpp">
+      <Filter>Source Files\CubeLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PainterEngineSubPacket\network\src\Cube_SocketTCP.cpp">
+      <Filter>Source Files\CubeLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PainterEngineSubPacket\network\src\Cube_SocketUDP.cpp">
+      <Filter>Source Files\CubeLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PainterEngineSubPacket\network\src\Cube_TCPFastIO.cpp">
+      <Filter>Source Files\CubeLibrary</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="pedollc.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="pedollc.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Connector.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="PeDollcCore.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="pedollc.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Register.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="TransferTool.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_pedollc.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_Connector.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PainterEngineSubPacket\network\inc\Cube_AsynIO.h">
+      <Filter>Header Files\CubeLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PainterEngineSubPacket\network\inc\Cube_Thread.h">
+      <Filter>Header Files\CubeLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Grammar\Cube_Grammar.h">
+      <Filter>Header Files\CubeLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Lexer\Cube_Lexer.h">
+      <Filter>Header Files\CubeLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PainterEngineSubPacket\network\inc\Cube_SocketHeader.h">
+      <Filter>Header Files\CubeLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PainterEngineSubPacket\network\inc\Cube_SocketTCP.h">
+      <Filter>Header Files\CubeLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PainterEngineSubPacket\network\inc\Cube_SocketUDP.h">
+      <Filter>Header Files\CubeLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PainterEngineSubPacket\network\inc\Cube_TCPFastIO.h">
+      <Filter>Header Files\CubeLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_Register.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_TransferTool.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ICOWindow.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pedollc_zh.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
