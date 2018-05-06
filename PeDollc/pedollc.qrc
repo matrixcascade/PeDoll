@@ -1,15 +1,16 @@
 <RCC>
-    <qresource prefix="/PeDollc">
-        <file>Resources/Close.png</file>
-        <file>Resources/Tab.png</file>
-        <file>Resources/Clear.png</file>
-        <file>Resources/key.png</file>
-        <file>Resources/binary.png</file>
-        <file>Resources/Hook.png</file>
-        <file>Resources/linker.png</file>
-        <file>Resources/run.png</file>
-        <file>Resources/stop.png</file>
-        <file>Resources/connect.png</file>
-        <file>Resources/PeDoll.png</file>
-    </qresource>
+  <qresource prefix="/PeDollc">
+    <file>Resources/52pojie.bmp</file>
+    <file>Resources/Close.png</file>
+    <file>Resources/Tab.png</file>
+    <file>Resources/Clear.png</file>
+    <file>Resources/key.png</file>
+    <file>Resources/binary.png</file>
+    <file>Resources/Hook.png</file>
+    <file>Resources/linker.png</file>
+    <file>Resources/run.png</file>
+    <file>Resources/stop.png</file>
+    <file>Resources/connect.png</file>
+    <file>Resources/PeDoll.png</file>
+  </qresource>
 </RCC>

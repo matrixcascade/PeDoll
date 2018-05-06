@@ -80,6 +80,11 @@
       <AdditionalDependencies>qtmain.lib;QtCore4.lib;QtGui4.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='PETrap|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.\GeneratedFiles;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\Lexer\Cube_Lexer.cpp" />
     <ClCompile Include="..\PainterEngineSubPacket\network\src\Cube_SocketTCP.cpp" />
@@ -146,6 +151,7 @@
     <ClInclude Include="..\PainterEngineSubPacket\network\inc\Cube_SocketUDP.h" />
     <ClInclude Include="..\PainterEngineSubPacket\network\inc\Cube_TCPFastIO.h" />
     <ClInclude Include="..\PainterEngineSubPacket\network\inc\Cube_Thread.h" />
+    <ClInclude Include="GeneratedFiles\ui_About.h" />
     <ClInclude Include="GeneratedFiles\ui_Connector.h" />
     <ClInclude Include="GeneratedFiles\ui_pedollc.h" />
     <ClInclude Include="GeneratedFiles\ui_Register.h" />
@@ -205,6 +211,21 @@
     <ResourceCompile Include="ICOWindow.rc" />
   </ItemGroup>
   <ItemGroup>
+    <CustomBuild Include="About.ui">
+      <FileType>Document</FileType>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\uic.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Uic%27ing %(Identity)...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\ui_%(Filename).h;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\uic.exe" -o ".\GeneratedFiles\ui_%(Filename).h" "%(FullPath)"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='PETrap|Win32'">$(QTDIR)\bin\uic.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='PETrap|Win32'">Uic%27ing %(Identity)...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='PETrap|Win32'">.\GeneratedFiles\ui_%(Filename).h;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='PETrap|Win32'">"$(QTDIR)\bin\uic.exe" -o ".\GeneratedFiles\ui_%(Filename).h" "%(FullPath)"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\uic.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Uic%27ing %(Identity)...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\ui_%(Filename).h;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\uic.exe" -o ".\GeneratedFiles\ui_%(Filename).h" "%(FullPath)"</Command>
+    </CustomBuild>
     <None Include="pedollc_zh.ts" />
     <CustomBuild Include="TransferTool.ui">
       <FileType>Document</FileType>

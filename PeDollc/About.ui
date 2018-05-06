@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form_About</class>
+ <widget class="QWidget" name="Form_About">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>440</width>
+    <height>116</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>About</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QWidget" name="widget" native="true">
+       <property name="minimumSize">
+        <size>
+         <width>91</width>
+         <height>91</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>91</width>
+         <height>91</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/PeDollc/Resources/52pojie.bmp);</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QLabel" name="label">
+         <property name="minimumSize">
+          <size>
+           <width>321</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>PeDoll v1.6.1 Code by DBinary from www.52pojie.cn</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton">
+         <property name="text">
+          <string>Ok</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="pedollc.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Form_About</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>254</x>
+     <y>81</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>187</x>
+     <y>81</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

@@ -1206,13 +1206,13 @@ int main()
 		SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE),FOREGROUND_GREEN);
 		printf("========================================================================\n");
 		printf("===================PeDoll Controller£¨Behavoir Monitor£©================\n");
-		printf("============DBinary (PaintEngine Sub Project) All rights reserved========\n");
+		printf("===================Code By DBinary From www.52pojie.cn==================\n");
 		printf("========================================================================\n");
 
 		if (!IsVirtualMachine())
 		{
 			SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE),FOREGROUND_RED);
-			printf("WARNING£ºPeDoll should be run inside virtual machine!!\n");
+			printf("WARNING£ºPeDoll should be run in virtual machine!!\n");
 			SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE),FOREGROUND_GREEN);
 		}
 

@@ -108,6 +108,9 @@
     <CustomBuild Include="TransferTool.ui">
       <Filter>Form Files</Filter>
     </CustomBuild>
+    <CustomBuild Include="About.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GeneratedFiles\ui_pedollc.h">
@@ -147,6 +150,9 @@
       <Filter>Generated Files</Filter>
     </ClInclude>
     <ClInclude Include="GeneratedFiles\ui_TransferTool.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_About.h">
       <Filter>Generated Files</Filter>
     </ClInclude>
   </ItemGroup>

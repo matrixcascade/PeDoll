@@ -1,34 +1,15 @@
-﻿生成启动时间为 2018/5/5 21:45:42。
-     1>项目“D:\PeDolls\PeDoll\PeDollc\PeDollc.vcxproj”在节点 4 上(build 个目标)。
+﻿生成启动时间为 2018/5/6 14:30:43。
+     1>项目“D:\PeDolls\PeDoll\PeDollc\PeDollc.vcxproj”在节点 3 上(build 个目标)。
      1>InitializeBuildStatus:
          正在创建“Release\PeDollc.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
        CustomBuild:
-         Moc'ing pedollc.h...
-         Uic'ing pedollc.ui...
-     1>D:\PeDolls\PeDoll\PeDollc\pedollc.ui : warning : Z-order assignment: '' is not a valid widget.
-     1>D:\PeDolls\PeDoll\PeDollc\pedollc.ui : warning : Z-order assignment: '' is not a valid widget.
-         Moc'ing PeDollcCore.h...
-         Rcc'ing pedollc.qrc...
-         Uic'ing Connector.ui...
-         Uic'ing Register.ui...
-         Uic'ing TransferTool.ui...
+         所有输出均为最新。
        ClCompile:
-         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /ID:\Qt\4.8.6\include /I.\GeneratedFiles\Release /ID:\Qt\4.8.6\include\QtCore /ID:\Qt\4.8.6\include\QtGui /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\Lexer\Cube_Lexer.cpp ..\PainterEngineSubPacket\network\src\Cube_SocketTCP.cpp ..\PainterEngineSubPacket\network\src\Cube_SocketUDP.cpp ..\PainterEngineSubPacket\network\src\Cube_TCPFastIO.cpp ..\PainterEngineSubPacket\network\src\Cube_Thread.cpp GeneratedFiles\Release\moc_pedollc.cpp GeneratedFiles\Release\moc_PeDollcCore.cpp main.cpp pedollc.cpp PeDollcCore.cpp
-         Cube_Lexer.cpp
-         Cube_SocketTCP.cpp
-         Cube_SocketUDP.cpp
-         Cube_TCPFastIO.cpp
-         Cube_Thread.cpp
-         moc_pedollc.cpp
-         moc_PeDollcCore.cpp
-         main.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /ID:\Qt\4.8.6\include /I.\GeneratedFiles\Release /ID:\Qt\4.8.6\include\QtCore /ID:\Qt\4.8.6\include\QtGui /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt pedollc.cpp
          pedollc.cpp
-         PeDollcCore.cpp
-         正在生成代码...
-         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /ID:\Qt\4.8.6\include /I.\GeneratedFiles\Release /ID:\Qt\4.8.6\include\QtCore /ID:\Qt\4.8.6\include\QtGui /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\qrc_pedollc.cpp
-         qrc_pedollc.cpp
+         所有输出均为最新。
        ResourceCompile:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /l"0x0409" /nologo /fo"Release\ICOWindow.res" ICOWindow.rc 
+         所有输出均为最新。
        Link:
          D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\PeDolls\PeDoll\Win32\Release\\PeDollc.exe" /NOLOGO /LIBPATH:D:\Qt\4.8.6\lib qtmain.lib QtCore4.lib QtGui4.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\PeDollc.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"D:\PeDolls\PeDoll\Win32\Release\PeDollc.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\PeDolls\PeDoll\Win32\Release\PeDollc.lib" /MACHINE:X86 Release\ICOWindow.res
          Release\Cube_Lexer.obj
@@ -56,4 +37,4 @@
 
 生成成功。
 
-已用时间 00:00:18.60
+已用时间 00:00:02.84

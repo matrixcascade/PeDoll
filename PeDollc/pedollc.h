@@ -16,6 +16,22 @@
 #include "ui_Register.h"
 #include "ui_TransferTool.h"
 
+#include "ui_About.h"
+
+
+class ProAbout:public QWidget
+{
+	Q_OBJECT
+public:
+	ProAbout(QWidget *parent = 0, Qt::WindowFlags f = 0)
+	{
+		ui.setupUi(this);
+	}
+protected:
+private:
+	Ui::Form_About ui;
+};
+
 class PeDollc_TransferDialog:public QDialog
 {
 	Q_OBJECT
@@ -154,6 +170,7 @@ private:
 	PeDollc_ConnectorDialog  *m_ConnectorDialog;
 	PeDollc_RegisterDialog   *m_RegisterDialog;
 	PeDollc_TransferDialog   *m_TransferDialog;
+	ProAbout				 *m_AboutDialog;
 	CubeGrammar				  m_Grammar;
 	CubeLexer				  m_Lexer;
 	char					 *m_DumpBuffer;

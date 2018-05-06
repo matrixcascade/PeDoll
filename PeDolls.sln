@@ -9,8 +9,6 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PeDollc", "PeDollc\PeDollc.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "udis86", "udis86\udis86.vcxproj", "{DEAC8BE5-5D25-48CC-8D88-C6F927101BBB}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PETrap", "PETrap\PETrap.vcxproj", "{C40014AB-24F8-4729-B4EE-FBACA08C4F00}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -42,12 +40,6 @@ Global
 		{DEAC8BE5-5D25-48CC-8D88-C6F927101BBB}.PETrap|Win32.Build.0 = Release|Win32
 		{DEAC8BE5-5D25-48CC-8D88-C6F927101BBB}.Release|Win32.ActiveCfg = Release|Win32
 		{DEAC8BE5-5D25-48CC-8D88-C6F927101BBB}.Release|Win32.Build.0 = Release|Win32
-		{C40014AB-24F8-4729-B4EE-FBACA08C4F00}.Debug|Win32.ActiveCfg = Debug|Win32
-		{C40014AB-24F8-4729-B4EE-FBACA08C4F00}.Debug|Win32.Build.0 = Debug|Win32
-		{C40014AB-24F8-4729-B4EE-FBACA08C4F00}.PETrap|Win32.ActiveCfg = Release|Win32
-		{C40014AB-24F8-4729-B4EE-FBACA08C4F00}.PETrap|Win32.Build.0 = Release|Win32
-		{C40014AB-24F8-4729-B4EE-FBACA08C4F00}.Release|Win32.ActiveCfg = Release|Win32
-		{C40014AB-24F8-4729-B4EE-FBACA08C4F00}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

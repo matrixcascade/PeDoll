@@ -1,31 +1,9 @@
-﻿生成启动时间为 2018/5/5 21:45:41。
-     1>项目“D:\PeDolls\PeDoll\PeDolls\PeDolls.vcxproj”在节点 5 上(build 个目标)。
+﻿生成启动时间为 2018/5/6 14:45:40。
+     1>项目“D:\PeDolls\PeDoll\PeDolls\PeDolls.vcxproj”在节点 3 上(build 个目标)。
      1>InitializeBuildStatus:
          正在创建“Release\PeDolls.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
        ClCompile:
-         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\Lexer\Cube_Lexer.cpp ..\PainterEngineSubPacket\network\src\Cube_SocketTCP.cpp ..\PainterEngineSubPacket\network\src\Cube_SocketUDP.cpp ..\PainterEngineSubPacket\network\src\Cube_TCPFastIO.cpp ..\PainterEngineSubPacket\network\src\Cube_Thread.cpp ..\PeStructure\src\PEStructure.cpp __Main.cpp
-         Cube_Lexer.cpp
-     1>..\Lexer\Cube_Lexer.cpp(493): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
-     1>..\Lexer\Cube_Lexer.cpp(541): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
-     1>..\Lexer\Cube_Lexer.cpp(566): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
-         Cube_SocketTCP.cpp
-         Cube_SocketUDP.cpp
-         Cube_TCPFastIO.cpp
-         Cube_Thread.cpp
-         PEStructure.cpp
-     1>..\PeStructure\src\PEStructure.cpp(15): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
-     1>..\PeStructure\src\PEStructure.cpp(499): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
-     1>..\PeStructure\src\PEStructure.cpp(866): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
-     1>..\PeStructure\src\PEStructure.cpp(875): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
-     1>..\PeStructure\src\PEStructure.cpp(1261): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt __Main.cpp
          __Main.cpp
      1>d:\pedolls\pedoll\pedolls\../Grammar/Cube_Grammar.h(54): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
@@ -119,10 +97,9 @@
                  D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
      1>__Main.cpp(1084): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
-         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt __ASM_INJECT_CODES.c
-         __ASM_INJECT_CODES.c
+         所有输出均为最新。
        ResourceCompile:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /l"0x0409" /nologo /fo"Release\RemoteControlller.res" RemoteControlller.rc 
+         所有输出均为最新。
        Link:
          D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\PeDolls\PeDoll\Release\PeDolls.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\PeDolls.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\PeDolls\PeDoll\Release\PeDolls.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\PeDolls\PeDoll\Release\PeDolls.lib" /MACHINE:X86 Release\RemoteControlller.res
          Release\Cube_Lexer.obj
@@ -145,4 +122,4 @@
 
 生成成功。
 
-已用时间 00:00:04.52
+已用时间 00:00:02.00

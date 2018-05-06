@@ -1,8 +1,5 @@
 #include "pedollc.h"
 
-const char about[]="PeDoll V1.6.1 trial-Code by DBinary(MatrixCascade@gmail.com) & All rights reserved\n\nPedoll 试用版本，本程序由DBinary(MatrixCascade@gmail.com) 制作，并保留其所有权利";
-const char about_reg[]="PeDoll V1.6.1 Code by DBinary(MatrixCascade@gmail.com) & All rights reserved\n\nPedoll Pro版本，本程序由DBinary(MatrixCascade@gmail.com) 制作，并保留其所有权利";
-
 
 static int hex_table[]={0,0,0,0,0,0,0,0,0,  
 	0,0,0,0,0,0,0,0,0,  
@@ -38,6 +35,7 @@ PeDollc::PeDollc(QWidget *parent, Qt::WFlags flags)
 	: QMainWindow(parent, flags)
 {
 	m_DumpBuffer=NULL;
+	m_AboutDialog=new ProAbout();
 	if(!m_Core.Initialize())
 	{
 		QMessageBox::information(NULL, tr("ERROR"), tr("Could not initialize network."), QMessageBox::Ok);
@@ -178,7 +176,7 @@ PeDollc::PeDollc(QWidget *parent, Qt::WFlags flags)
 
 	if (m_Core.IsReg())
 	{
-		this->setWindowTitle(tr("PeDoll--PE32 Monitor registered"));
+		this->setWindowTitle(tr("PeDoll--PE32 Monitor www.52pojie.cn"));
 		ui.widget_DumpRegOpen->setVisible(true);
 		ui.label_RegNotice->setVisible(false);
 		ui.action_menu_regist->setEnabled(false);
@@ -569,11 +567,7 @@ void PeDollc::SLOT_onDumpSaveAll()
 
 void PeDollc::SLOT_About()
 {
-	if(m_Core.IsReg())
-		QMessageBox::information(this,"About",QString::fromLocal8Bit(about_reg));
-	else
-		QMessageBox::information(this,"About",QString::fromLocal8Bit(about));
-
+	m_AboutDialog->show();
 }
 
 void PeDollc::SLOT_onClear()
@@ -1412,16 +1406,7 @@ void PeDollc_RegisterDialog::SLOT_OnConfirm()
 {
 	int Sum=0;
 	int Xor=0;
-	bool Cracked=false;
-	for (int i=0;i<sizeof(about);i++)
-	{
-		Sum+=about[i];
-		Xor^=about[i];
-	}
-	if (Sum!=4585||Xor!=115)
-	{
-		while(1) new char[1024];
-	}
+
 	DWORD num=ui.lineEdit_Key->text().toUInt();
 
 	char szBuffer[MAX_PATH];  
